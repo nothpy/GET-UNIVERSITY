@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #007bff;
+}
+
+.search-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+ol {
+    margin-top: 2rem;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    background-color: #ecf0f4;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+li:nth-child(even) {
+    background-color: #dee2e8;
+}
